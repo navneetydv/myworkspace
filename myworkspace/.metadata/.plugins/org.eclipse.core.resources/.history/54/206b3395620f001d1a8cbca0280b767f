@@ -1,0 +1,21 @@
+package basicloop;
+
+public class addition {
+static addition b;
+	public static void main(String[] args) {
+	
+		b.cq();
+	}
+	
+    public static addition cq () {
+    addition b=	new addition();
+    	return b;
+}
+	
+	
+	
+	
+
+}
+
+

@@ -1,0 +1,28 @@
+package web_automation_basic;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Automation_xpath {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("Webdriver.chrome.driver", "C:\\Users\\Navnit\\eclipse-workspace\\myworkspace\\Automation_basic\\selenium-server-standalone-3.5.3.jar");
+		
+				ChromeDriver driver=new ChromeDriver();
+		
+			driver.get("https://www.flipkart.com/");
+		
+			driver.findElement(By.xpath("//button[text()='✕']")).click();
+			
+			//driver.findElement(By.xpath("//*[text()='Shop Monthly Essentials']//parent::div//div//a[text()='VIEW ALL']")).click();
+	
+			driver.findElement(By.xpath("//a[@class='_1_3w1N']")).click();
+
+	
+	}
+	
+	
+
+}

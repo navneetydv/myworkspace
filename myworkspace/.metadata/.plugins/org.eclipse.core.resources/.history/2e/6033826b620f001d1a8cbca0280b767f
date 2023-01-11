@@ -1,0 +1,23 @@
+package basicloop;
+
+public class addition {
+
+	public static void main(String[] args) {
+		cq();
+		
+	}
+	
+    public static void cq () {
+      addition	sp=new addition();
+      sp=null;
+      System.out.println(sp);
+      
+}
+	
+	
+	
+	
+
+}
+
+

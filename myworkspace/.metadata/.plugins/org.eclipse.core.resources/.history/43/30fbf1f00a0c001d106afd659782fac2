@@ -1,0 +1,34 @@
+package staticcantrolflow;
+
+public class P {
+	static P a;
+	public static void main(String[] args) {
+		System.out.println(a.methodone());
+	}
+	
+	
+	public  P methodone() {
+		
+		return methodone();
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
